@@ -1,4 +1,4 @@
-401 JS --  Lab 34 Deploy Frontend
+401 JS --  Lab 44 Deploy Frontend
 ===
 
 ## Submission Instructions
