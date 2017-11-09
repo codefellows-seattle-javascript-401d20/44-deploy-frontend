@@ -21,6 +21,6 @@
 #### Static Server
 * Create a `index.js` that implaments a static server using express
 
-####  Documentation  
+##  Documentation  
 Write a description of the project in your README.md
 Include a link to your deployed application
