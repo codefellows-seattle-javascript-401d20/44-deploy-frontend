@@ -13,7 +13,7 @@
     "watch": "webpack-dev-server --inline --hot",
     "test": "jest",
     "start": "main.js",
-    "heroku-postbuild": "webpack",
+    "heroku-postbuild": "webpack"
   },
   "engines": {
     "node": "8.4.0"
