@@ -1,7 +1,8 @@
 {
-  "name": "lab-stuart",
+  "name": "44-deploy-frontend",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "## About: An example OAuth implementation with a simple Account model backend and a 'Signup with Google' link frontend.",
+  "main": "webpack.config.js",
   "jest": {
     "moduleNameMapper": {
       "\\.(svg|eof|ttf|woff|woff2|scss|gif)$": "<rootDir>/src/__test__/mock-asset.js"
@@ -9,10 +10,10 @@
   },
   "scripts": {
     "build": "webpack",
-    "heroku-postbuild": "webpack",
     "watch": "webpack-dev-server --inline --hot",
     "test": "jest",
-    "start": "node src/main.js"
+    "start": "main.js",
+    "heroku-postbuild": "webpack",
   },
   "engines": {
     "node": "8.4.0"
@@ -53,5 +54,12 @@
   "devDependencies": {
     "jest": "^21.2.1"
   },
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stuartkershaw/44-deploy-frontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stuartkershaw/44-deploy-frontend/issues"
+  },
+  "homepage": "https://github.com/stuartkershaw/44-deploy-frontend#readme"
 }
