@@ -12,7 +12,7 @@
     "build": "webpack",
     "watch": "webpack-dev-server --inline --hot",
     "test": "jest",
-    "start": "main.js",
+    "start": "webpack",
     "heroku-postbuild": "webpack"
   },
   "engines": {
