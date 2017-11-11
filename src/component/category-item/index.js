@@ -6,7 +6,6 @@ import * as category from '../../action/category.js';
 import ExpenseForm from '../expense-form';
 import ExpenseItem from '../expense-item';
 import * as expense from '../../action/expense.js';
-import faker from 'faker';
 import * as util from '../../lib/util.js';
 import DropZone from '../drop-zone';
 
