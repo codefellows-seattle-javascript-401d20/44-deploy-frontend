@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "engines": {
     "node": "8.6.0"
-  }
+  },
   "description": "401 JS --  Lab 31 Budget Tracker ===",
   "main": "index.js",
   "jest": {
