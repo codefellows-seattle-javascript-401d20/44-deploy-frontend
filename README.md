@@ -1,26 +1,9 @@
-401 JS --  Lab 44 Deploy Frontend
-===
+##  Deploy Frontend 44 - Stuart
 
-## Submission Instructions
-* Create a repoistory on you github account
-* Copy a frontend project into your repository
-* Submit a link to a frontend deployed using heroku
- 
-## Configuration
-* Include a .gitignore
-* Include a README.md
-* Include a package.json
+## About:
+An example OAuth implementation with a simple Account model backend and a 'Signup with Google' link frontend.
 
-## Feature Tasks 
-* Configure a Heroku app to automaticly build an deploy your frontend on merge or push to master
-  * Setup all necessiary env vars
-* Add a `start` task to your package.json to run your static server
-* Add a `heroku-postbuild` task to your package.json to run webpack
-* Configure AWS CloudFront to cache static assets from your frontend deployment URL (heroku app url)
+`npm start` from the backend (with mongodb running) to start the API.
+`live-server` from the /frontend directory to load the index.html splash login page.
 
-#### Static Server
-* Create a `index.js` that implaments a static server using express
-
-##  Documentation  
-Write a description of the project in your README.md
-Include a link to your deployed application
+Google OAuth leverages a backend GET route at `/oauth/google` to exchange CODE for Token and set up an Account for login.
