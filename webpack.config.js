@@ -10,8 +10,8 @@ module.exports = {
     historyApiFallback: true,
   },
   output:  {
-    path: `${__dirname}/build`,
     filename: 'bundle.[hash].js',
+    path: `${__dirname}/build`,
     publicPath: process.env.CDN_URL,
   },
   plugins: [
