@@ -12,6 +12,7 @@ module.exports = {
   output:  {
     path: `${__dirname}/build`,
     filename: 'bundle.[hash].js',
+    publicPath: process.env.CDN_URL,
   },
   plugins: [
     new HTMLPlugin({title: 'budget'}),
