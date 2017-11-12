@@ -1,0 +1,27 @@
+@import 'vars';
+
+.expense-item {
+
+  .edit, .delete {
+    float: left;
+    width: 25%;
+    height: 2em;
+  }
+
+  main {
+    float: left;
+    padding: $pad;
+    margin-bottom: $pad;
+    background: $color-cream;
+  }
+
+  p {
+    display: block;
+    padding-top: 1.5em;
+  }
+
+  .expense-form, textarea {
+    border: none !important;
+  }
+
+}
